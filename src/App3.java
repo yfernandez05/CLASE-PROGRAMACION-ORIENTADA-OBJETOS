@@ -6,19 +6,26 @@ public class App3 {
         char letra = 'B';
 
         //obtener un solo caracter especfcando la posicion
-        System.out.println(cadena.charAt(0)); 
+        System.out.println(cadena.charAt(0));
+
         //tamaño de cadena
         System.out.println(cadena.length());
+
         // Colocar el texto en mayus
         System.out.println(cadena.toUpperCase());
+
         // Colocar el texto en minus
         System.out.println(cadena.toLowerCase());
+
         // Substring paar obtener parte de la cadena dentro de un rango incio y final
         System.out.println(cadena.substring(10, 20));
+
         // contains verifica si existe el texto dentro de la cadena
         System.out.println(cadena.contains("clase"));
+
         // remplaza parte de la palabara de la cadena original
         System.out.println(cadena.replace("clase", "sesion"));
+        
         // eliminar los epacion al incio y final
         String cadena2 = " Hola    mi  nombre es  ";
         System.out.println(cadena2.trim());
@@ -46,5 +53,7 @@ public class App3 {
         System.out.println(Math.floor(10.8));
         System.out.println(Math.ceil(10.2));
         System.out.println(Math.E);
+
+        //Clase 2 terminanda
     }
 }
