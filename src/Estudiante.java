@@ -1,7 +1,7 @@
 public class Estudiante {
     String codigo;
     String nombre;
-    double promedio;
+    private double promedio;
     int edad;
     boolean becado;
     char sexo;
@@ -14,5 +14,12 @@ public class Estudiante {
         System.out.println("Edad: " + edad);
         System.out.println("Becado: " + becado);
         System.out.println("Sexo: " + sexo);
+    }
+
+    public void establecerPromedio(double _promedio){
+        if (_promedio <  0 || _promedio > 20) {
+            System.err.println("El promedio debe estar entre 0 y 20");
+        }
+        this.promedio = _promedio;
     }
 }
